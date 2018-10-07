@@ -1,6 +1,6 @@
 #board {
     padding-top: 3em;
-    text-align: center;
+    text-align: center ;
     width: 308px;
     clear: both;
 }
@@ -17,10 +17,11 @@
 
 .topmid {
     border: 1px black solid; 
-}
+    }
 
 .topright {
     border: 1px black solid; 
+    background: teal
 }
    
 .midleft {
