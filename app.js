@@ -1,8 +1,8 @@
-let cells = document.querySelectorAll('.topright');
+let cells = document.querySelectorAll('.row');
 
 
-cells.forEach(function(topright) {
- topright.addEventListener("click", cellClicked);
+cells.forEach(function(row) {
+ row.addEventListener("click", cellClicked);
  });
 
 function cellClicked(e) { 
